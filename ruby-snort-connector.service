@@ -1,0 +1,13 @@
+[Unit]
+Description=Verodin Ruby to Snort Connector
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+StartLimitIntervalSec=0
+ExecStart=/usr/bin/ruby /root/verodin/ruby-to-snort.rb
+
+[Install]
+WantedBy=multi-user.target
