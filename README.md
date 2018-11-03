@@ -1,5 +1,6 @@
 # verodin
-why ruby
+
+Created in vim
 
 
 ![](screenshot.png)
